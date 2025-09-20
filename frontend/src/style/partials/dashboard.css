@@ -1,0 +1,146 @@
+/* Dashboard Cards */
+.dashboard-container {
+    padding: 24px 24px 0;
+}
+
+.dashboard-container .space30 {
+    height: 30px;
+    width: 100%;
+}
+
+/* Summary Cards */
+.modern-summary-card {
+    color: #595959;
+    font-size: 13px;
+    min-height: 106px;
+    height: 100%;
+    background: #fff;
+    padding: 24px;
+}
+
+.modern-summary-card .title {
+    color: #22075e;
+    font-size: 14px;
+    margin: 0 0 16px 0;
+    text-transform: capitalize;
+}
+
+.modern-summary-card .value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin: 8px 0;
+}
+
+.modern-summary-card .prefix {
+    color: #8c8c8c;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+/* Preview Card */
+.modern-preview-card {
+    height: 100%;
+    padding: 24px;
+    background: #fff;
+}
+
+.modern-preview-card .title {
+    color: #22075e;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.modern-preview-card .status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.modern-preview-card .ant-progress {
+    margin-bottom: 24px;
+}
+
+.modern-preview-card .progress-bar .progress {
+    height: 100%;
+    background: #1890ff;
+    transition: width 0.3s ease;
+}
+
+/* Customer Stats Card */
+.customer-stats-card {
+    height: 100%;
+    padding: 24px;
+    background: #fff;
+}
+
+.customer-stats-card .circle-progress {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 24px auto;
+}
+
+.customer-stats-card .circle-progress svg {
+    transform: rotate(-90deg);
+}
+
+.customer-stats-card .circle-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 600;
+    color: #22075e;
+}
+
+.customer-stats-card .stats-container {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.customer-stats-card .stats-label {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.customer-stats-card .stats-value {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.customer-stats-card .stats-divider {
+    margin: 24px 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+/* Recent Tables */
+.modern-recent-table {
+    padding: 24px;
+    background: #fff;
+}
+
+.modern-recent-table .title {
+    color: #22075e;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.modern-recent-table .ant-table-small {
+    margin-top: 12px;
+}
+
+.modern-recent-table .empty-state {
+    text-align: center;
+    padding: 48px 0;
+    color: #8c8c8c;
+}
+
+/* Common spacing utilities */
+.pad20 {
+    padding: 24px;
+}
